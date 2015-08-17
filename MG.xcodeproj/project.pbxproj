@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C7FE9841B808FDA00FBDDF5 /* ServerProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FE9831B808FDA00FBDDF5 /* ServerProcess.m */; };
+		0C7FE9871B809A2B00FBDDF5 /* GoURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7FE9861B809A2B00FBDDF5 /* GoURLProtocol.m */; };
 		2237E64A192B0177001E1393 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2237E649192B0177001E1393 /* Cocoa.framework */; };
 		2237E67E192B0186001E1393 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2237E67D192B0186001E1393 /* WebKit.framework */; };
 		2237E680192B018D001E1393 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2237E67F192B018D001E1393 /* JavaScriptCore.framework */; };
@@ -43,6 +45,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7FE9831B808FDA00FBDDF5 /* ServerProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerProcess.m; sourceTree = "<group>"; };
+		0C7FE9851B808FE700FBDDF5 /* ServerProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerProcess.h; sourceTree = "<group>"; };
+		0C7FE9861B809A2B00FBDDF5 /* GoURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoURLProtocol.m; sourceTree = "<group>"; };
+		0C7FE9881B809A3600FBDDF5 /* GoURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoURLProtocol.h; sourceTree = "<group>"; };
 		2237E646192B0177001E1393 /* MG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2237E649192B0177001E1393 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2237E64C192B0177001E1393 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -172,6 +178,10 @@
 				22B1CF221937734B00D2C294 /* Constants.h */,
 				22B1CF46193773BA00D2C294 /* Interface Builder */,
 				22B1CF45193773A400D2C294 /* Supporting Files */,
+				0C7FE9851B808FE700FBDDF5 /* ServerProcess.h */,
+				0C7FE9831B808FDA00FBDDF5 /* ServerProcess.m */,
+				0C7FE9861B809A2B00FBDDF5 /* GoURLProtocol.m */,
+				0C7FE9881B809A3600FBDDF5 /* GoURLProtocol.h */,
 			);
 			path = MacGap;
 			sourceTree = "<group>";
@@ -331,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7FE9841B808FDA00FBDDF5 /* ServerProcess.m in Sources */,
 				22B1CF3B1937734B00D2C294 /* Task.m in Sources */,
 				22B1CF341937734B00D2C294 /* Dock.m in Sources */,
 				22B1CF2E1937734B00D2C294 /* JSON.m in Sources */,
@@ -350,6 +361,7 @@
 				22B1CF321937734B00D2C294 /* Command.m in Sources */,
 				226AE65D193AA8FC00B15FB7 /* Sound.m in Sources */,
 				22B1CF331937734B00D2C294 /* Dialog.m in Sources */,
+				0C7FE9871B809A2B00FBDDF5 /* GoURLProtocol.m in Sources */,
 				22B1CF361937734B00D2C294 /* Fonts.m in Sources */,
 				22B1CF2B1937734B00D2C294 /* AppDelegate.m in Sources */,
 				22B1CF391937734B00D2C294 /* Notify.m in Sources */,

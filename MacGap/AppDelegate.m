@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "WindowController.h"
+#import "ServerProcess.h"
+#import "GoURLProtocol.h"
 
 @implementation AppDelegate
 
@@ -25,6 +27,7 @@
 }
 
 - (void) applicationDidFinishLaunching:(NSNotification *)aNotification {
+    [NSURLProtocol registerClass:[GoURLProtocol class]];
     self.windowController = [[WindowController alloc] initWithURL: kStartPage];
     [self.windowController setWindowParams];
     [self.windowController showWindow:self];

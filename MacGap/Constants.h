@@ -8,6 +8,6 @@
 
 // Application constants
 
-#define kStartPage @"public/index.html"
+#define kStartPage @"go:///"
 #define kStartFolder @"."
 #define kWebScriptNamespace @"MacGap"
